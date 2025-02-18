@@ -14,14 +14,25 @@ v l y p j z f o u ; [ ] \
   q w c d k x h , . /
 ```
 ## changes
-This layout is a more balanced version of [Colemak-DH](https://colemakmods.github.io/mod-dh/).
+This layout attempts to be a more balanced version of [Colemak-DH](https://colemakmods.github.io/mod-dh/) and [Canary](https://github.com/Apsu/Canary).
 
 I wanted to accomplish the following:
-- Improve Colemak-DH's LSB metric without sacrificing too much in other areas
+- Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys
+- Retain Canary's solution for the `Y` key in Colemak-DH and, by proxy, the uncomfortable `YOU` trigram
+- Improve on Canary's LSBs without sacrificing too much in other metrics
+- Improve on Canary's left/right usage ratio
+  - Serin arrives at a 44.65:55.35 ratio, compared to Canary's 43.67:56.33 ratio
+- Improve on Canary's workload imbalance across the fingers, and reduce disproportionate burden on index fingers
+  - Serin greatly reduces the relative spike found in the 4th and 8th columns, allowing for a more even finger distribution
+- Improve on Canary's (and thus Colemak-DH's) redirects
+- Improve on Canary's shortcut, CLI, and Vim friendliness
+  - Serin has easier `W` access for tab and window management
+  - Serin has easier `cd`, `rm`, and `wc` access for CLI usage
+  - Serin has easier `:wq`, `c[i]w`, and `d[i]w` access for Vim usage
 
 ## comparisons
 All comparisons are done with normalized puntuation keys across each layout.
-##### colemak-dh
+### colemak-dh
 Serin generally performs better than Colemak-DH, particularly in LSBs, redirects, and the `YOU` trigram.
 
 |Metric | Colemak-DH | Serin | Difference |
@@ -33,8 +44,8 @@ Serin generally performs better than Colemak-DH, particularly in LSBs, redirects
 | Redirects | 9.22% | 5.48% | -3.74%|
 | SPES[^1] | 1.726 | 1.723 | -0.003 |
 
-##### canary
-Serin somewhat better than Canary, with similar SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
+### canary
+Serin is somewhat better than Canary, with similar or slightly worse SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
 
 |Metric | Colemak-DH | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
