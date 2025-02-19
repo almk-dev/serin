@@ -58,6 +58,7 @@ Serin is somewhat better than Canary, with similar or slightly worse SBFs, sciss
 
 ## mods
 - The `J`/`Z` keys can be swapped with nearly zero impact to stats, if the `Z` shortcut is prefered on the left-hand side
+- The `K`/`V` keys can be swapped for slighty worse SBFs but significantly better LSBs and easier access to the `V` shortcut
 - The `E`/`A` keys can be swapped to optimize for SteveP's [Layout Analysis Tool](https://colemakmods.github.io/mod-dh/analyze.html), yielding a SPES[^1] of 1.717
   - However, this results in a less balanced workload across the fingers, and performs worse on other analyzers
 
