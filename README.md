@@ -17,7 +17,7 @@ v l y p j z f o u ; [ ] \
 This layout attempts to be a more balanced version of [Colemak-DH](https://colemakmods.github.io/mod-dh/) and [Canary](https://github.com/Apsu/Canary).
 
 I wanted to accomplish the following:
-- Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys
+- Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys and punctuation key placement
 - Retain Canary's solution for the `Y` key in Colemak-DH and, by proxy, the uncomfortable `YOU` trigram
 - Improve on Canary's LSBs without sacrificing too much in other metrics
 - Improve on Canary's left/right usage ratio
