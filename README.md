@@ -3,15 +3,15 @@ Keyboard layout based on Colemak-DH
 
 ##### column-staggered
 ```
-v l y p j z f o u ; \
-m r s t g b n a e i '
-q w c d k x h , . /
+w l y p v z f o u , \
+m r s t g b n a e i /
+q j c d k x h ' ; .
 ```
 ##### row-staggered
 ```
-v l y p j z f o u ; [ ] \
- m r s t g b n a e i '
-  q w c d k x h , . /
+w l y p v z f o u , [ ] \
+ m r s t g b n a e i /
+  q j c d k x h ' ; .
 ```
 ## changes
 This layout attempts to be a more balanced version of [Colemak-DH](https://colemakmods.github.io/mod-dh/) and [Canary](https://github.com/Apsu/Canary).
