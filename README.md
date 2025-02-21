@@ -3,15 +3,15 @@ Keyboard layout based on Canary
 
 ##### column-staggered
 ```
-w l y p v z f o u , \
+w l y p v q f o u , \
 m r s t g b n a e i /
-q j c d k x h ' ; .
+z j c d k x h ' ; .
 ```
 ##### row-staggered
 ```
-w l y p v z f o u , [ ] \
+w l y p v q f o u , [ ] \
  m r s t g b n a e i /
-  q j c d k x h ' ; .
+  z j c d k x h ' ; .
 ```
 ## changes
 This layout attempts to be a more balanced version of [Canary](https://github.com/Apsu/Canary).
