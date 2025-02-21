@@ -27,20 +27,8 @@ I wanted to accomplish the following:
 - Improve on Canary's redirects
 
 ## comparisons
-### colemak-dh
-Serin generally performs better than Colemak-DH, particularly in LSBs, redirects, and the `YOU` trigram.
-
-|Metric | Colemak-DH | Serin | Difference |
-| ----- | ---------: | ----: | ---------: |
-| SBFs | 0.91% | 0.77% | -0.14% |
-| LSBs | 1.27% | 1.07% | -0.20% |
-| Scissors | 0.15% | 0.53% | +0.38% |
-| Rolls | 49.21% | 49.26% | +0.05% |
-| Redirects | 9.22% | 5.31% | -3.91%|
-| SPES[^1] | 1.726 | 1.729 | +0.003 |
-
 ### canary
-Serin generally performs better than Canary, with similar SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
+Serin generally improves on Canary, with similar SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
 
 |Metric | Canary | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
@@ -50,6 +38,18 @@ Serin generally performs better than Canary, with similar SBFs, scissors, and ro
 | Rolls | 50.37% | 49.26% | -1.11% |
 | Redirects | 6.95% | 5.31% | -1.64%|
 | SPES[^1] | 1.738 | 1.729 | -0.009 |
+
+### colemak-dh
+Serin greatly improves on Colemak-DH, particularly in LSBs, redirects, and the `YOU` trigram.
+
+|Metric | Colemak-DH | Serin | Difference |
+| ----- | ---------: | ----: | ---------: |
+| SBFs | 0.91% | 0.77% | -0.14% |
+| LSBs | 1.27% | 1.07% | -0.20% |
+| Scissors | 0.15% | 0.53% | +0.38% |
+| Rolls | 49.21% | 49.26% | +0.05% |
+| Redirects | 9.22% | 5.31% | -3.91%|
+| SPES[^1] | 1.726 | 1.729 | +0.003 |
 
 ## mods
 - The `K`/`V` keys can be swapped for slighty better skip bigram stats and easier access to the `V` shortcut
