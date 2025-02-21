@@ -28,11 +28,11 @@ I wanted to accomplish the following:
 
 ## comparisons
 ### canary
-Serin generally improves on Canary, with similar SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
+Serin generally improves on Canary, with similar SFBs, scissors, and rolls, but greatly reduced LSBs and redirects.
 
 |Metric | Canary | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
-| SBFs | 0.66% | 0.77% | +0.11% |
+| SFBs | 0.66% | 0.77% | +0.11% |
 | LSBs | 1.75% | 1.07% | -0.68% |
 | Scissors | 0.42% | 0.53% | +0.11% |
 | Rolls | 50.37% | 49.26% | -1.11% |
@@ -44,7 +44,7 @@ Serin greatly improves on Colemak-DH, particularly in LSBs, redirects, and the `
 
 |Metric | Colemak-DH | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
-| SBFs | 0.91% | 0.77% | -0.14% |
+| SFBs | 0.91% | 0.77% | -0.14% |
 | LSBs | 1.27% | 1.07% | -0.20% |
 | Scissors | 0.15% | 0.53% | +0.38% |
 | Rolls | 49.21% | 49.26% | +0.05% |
