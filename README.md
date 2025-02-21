@@ -14,7 +14,7 @@ w l y p v z f o u , [ ] \
   q j c d k x h ' ; .
 ```
 ## changes
-This layout attempts to be a more balanced version of [Canary](https://github.com/Apsu/Canary), with only four letter changes.
+This layout attempts to be a more balanced version of [Canary](https://github.com/Apsu/Canary).
 
 I wanted to accomplish the following:
 - Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys
