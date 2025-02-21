@@ -1,5 +1,5 @@
 # serin
-Keyboard layout based on Colemak-DH
+Keyboard layout based on Canary
 
 ##### column-staggered
 ```
@@ -14,21 +14,17 @@ w l y p v z f o u , [ ] \
   q j c d k x h ' ; .
 ```
 ## changes
-This layout attempts to be a more balanced version of [Colemak-DH](https://colemakmods.github.io/mod-dh/) and [Canary](https://github.com/Apsu/Canary).
+This layout attempts to be a more balanced version of [Canary](https://github.com/Apsu/Canary), with only four letter changes.
 
 I wanted to accomplish the following:
-- Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys and punctuation key placement
+- Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys
 - Retain Canary's solution for the `Y` key in Colemak-DH and, by proxy, the uncomfortable `YOU` trigram
 - Improve on Canary's LSBs without sacrificing too much in other metrics
 - Improve on Canary's left/right usage ratio
   - Serin arrives at a 44.65:55.35 ratio, compared to Canary's 43.67:56.33 ratio
 - Improve on Canary's workload imbalance across the fingers, and reduce disproportionate burden on index fingers
   - Serin greatly reduces the relative spike found in the 4th and 8th columns, allowing for a more even finger distribution
-- Improve on Canary's (and thus Colemak-DH's) redirects
-- Improve on Canary's shortcut, CLI, and Vim friendliness
-  - Serin has easier `W` access for tab and window management
-  - Serin has easier `cd`, `rm`, and `wc` access for CLI usage
-  - Serin has easier `:wq`, `c[i]w`, and `d[i]w` access for Vim usage
+- Improve on Canary's redirects
 
 ## comparisons
 ### colemak-dh
