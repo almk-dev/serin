@@ -31,44 +31,42 @@ I wanted to accomplish the following:
   - Serin has easier `:wq`, `c[i]w`, and `d[i]w` access for Vim usage
 
 ## comparisons
-All comparisons are done with normalized puntuation keys across each layout.
 ### colemak-dh
 Serin generally performs better than Colemak-DH, particularly in LSBs, redirects, and the `YOU` trigram.
 
 |Metric | Colemak-DH | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
-| SBFs | 0.91% | 0.92% | +0.01% |
-| LSBs | 1.27% | 0.83% | -0.44% |
+| SBFs | 0.91% | 0.77% | -0.14% |
+| LSBs | 1.27% | 1.07% | -0.20% |
 | Scissors | 0.15% | 0.53% | +0.38% |
-| Rolls | 49.21% | 48.96% | -0.25% |
-| Redirects | 9.22% | 5.48% | -3.74%|
-| SPES[^1] | 1.726 | 1.723 | -0.003 |
+| Rolls | 49.21% | 49.26% | +0.05% |
+| Redirects | 9.22% | 5.31% | -3.91%|
+| SPES[^1] | 1.726 | 1.729 | +0.003 |
 
 ### canary
-Serin is somewhat better than Canary, with similar or slightly worse SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
+Serin generally performs better than Canary, with similar SBFs, scissors, and rolls, but greatly reduced LSBs and redirects.
 
-|Metric | Colemak-DH | Serin | Difference |
+|Metric | Canary | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
-| SBFs | 0.75% | 0.92% | +0.17% |
-| LSBs | 1.77% | 0.83% | -0.94% |
-| Scissors | 0.41% | 0.53% | +0.12% |
-| Rolls | 50.16% | 48.96% | -1.2% |
-| Redirects | 6.96% | 5.48% | -1.48%|
-| SPES[^1] | 1.736 | 1.723 | -0.013 |
+| SBFs | 0.66% | 0.77% | +0.11% |
+| LSBs | 1.75% | 1.07% | -0.68% |
+| Scissors | 0.42% | 0.53% | +0.11% |
+| Rolls | 50.37% | 49.26% | -1.11% |
+| Redirects | 6.95% | 5.31% | -1.64%|
+| SPES[^1] | 1.738 | 1.729 | -0.009 |
 
 ## mods
-- The `J`/`Z` keys can be swapped with nearly zero impact to stats, if the `Z` shortcut is prefered on the left-hand side
-- The `K`/`V` keys can be swapped for slighty worse SBFs but significantly better LSBs and easier access to the `V` shortcut
-- The `E`/`A` keys can be swapped to optimize for SteveP's [Layout Analysis Tool](https://colemakmods.github.io/mod-dh/analyze.html), yielding a SPES[^1] of 1.717
-  - However, this results in a less balanced workload across the fingers, and performs worse on other analyzers
+- The `K`/`V` keys can be swapped for slighty better skip bigram stats and easier access to the `V` shortcut
+  - However, this is in exchange for words with the `PK` bigram becoming harder
 
 ## stats
-![Screenshot 2025-02-18 at 2 38 02 PM](https://github.com/user-attachments/assets/178798e7-8cec-479b-9d28-e4671a50e3be)
+![Screenshot 2025-02-20 at 11 09 23 PM](https://github.com/user-attachments/assets/8aa8fc1e-de0f-448a-b792-85b087b06210)
 
-![Screenshot 2025-02-18 at 2 39 19 PM](https://github.com/user-attachments/assets/c537f8c1-55fe-45e7-bd69-2f40db6b6806)
+![Screenshot 2025-02-20 at 11 09 53 PM](https://github.com/user-attachments/assets/87c3af71-2432-4fd1-afa1-6a42adfd88b0)
 
-![Screenshot 2025-02-18 at 2 38 51 PM](https://github.com/user-attachments/assets/a6ca94f8-11a7-4955-98b0-e622f0fadd0b)
+![Screenshot 2025-02-20 at 11 10 36 PM](https://github.com/user-attachments/assets/f2a2d4c6-bcaa-4256-90cf-b3d57987dcb6)
 
-![Screenshot 2025-02-18 at 2 53 20 PM](https://github.com/user-attachments/assets/2e937aaf-c1f2-4634-bfae-9298e6fbc133)
+![Screenshot 2025-02-20 at 10 54 40 PM](https://github.com/user-attachments/assets/94675965-a2ba-4001-a240-876e59099271)
+
 
 [^1]: SteveP's [Layout Analysis Tool](https://colemakmods.github.io/mod-dh/analyze.html) Effort Score
