@@ -32,37 +32,32 @@ Serin generally improves on Canary, with similar SFBs, scissors, and rolls, but 
 
 |Metric | Canary | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
-| SFBs | 0.66% | 0.77% | +0.11% |
-| LSBs | 1.75% | 1.07% | -0.68% |
+| SFBs | 0.66% | 0.71% | +0.05% |
+| LSBs | 1.75% | 0.80% | -0.95% |
 | Scissors | 0.42% | 0.53% | +0.11% |
-| Rolls | 50.37% | 49.26% | -1.11% |
-| Redirects | 6.95% | 5.31% | -1.64%|
-| SPES[^1] | 1.738 | 1.729 | -0.009 |
+| Rolls | 50.37% | 49.23% | -1.14% |
+| Redirects | 6.95% | 5.44% | -1.51%|
+| SPES[^1] | 1.738 | 1.731 | -0.007 |
 
 ### colemak-dh
 Serin greatly improves on Colemak-DH, particularly in LSBs, redirects, and the `YOU` trigram.
 
 |Metric | Colemak-DH | Serin | Difference |
 | ----- | ---------: | ----: | ---------: |
-| SFBs | 0.91% | 0.77% | -0.14% |
-| LSBs | 1.27% | 1.07% | -0.20% |
+| SFBs | 0.91% | 0.71% | -0.20% |
+| LSBs | 1.27% | 0.80% | -0.470% |
 | Scissors | 0.15% | 0.53% | +0.38% |
-| Rolls | 49.21% | 49.26% | +0.05% |
-| Redirects | 9.22% | 5.31% | -3.91%|
-| SPES[^1] | 1.726 | 1.729 | +0.003 |
-
-## mods
-- The `K`/`V` keys can be swapped for slighty better skip bigram stats and easier access to the `V` shortcut
-  - However, this is in exchange for words with the `PK` bigram becoming harder
+| Rolls | 49.21% | 49.23% | +0.02% |
+| Redirects | 9.22% | 5.44% | -3.78%|
+| SPES[^1] | 1.726 | 1.731 | +0.005 |
 
 ## stats
-![Screenshot 2025-02-20 at 11 09 23 PM](https://github.com/user-attachments/assets/8aa8fc1e-de0f-448a-b792-85b087b06210)
+![Screenshot 2025-02-22 at 2 27 10 PM](https://github.com/user-attachments/assets/a0d1748f-f58f-4602-9aa9-9703d31c7f4f)
 
-![Screenshot 2025-02-20 at 11 09 53 PM](https://github.com/user-attachments/assets/87c3af71-2432-4fd1-afa1-6a42adfd88b0)
+![Screenshot 2025-02-22 at 2 28 00 PM](https://github.com/user-attachments/assets/e8af5906-9289-45bf-9115-a1d83ec75dcb)
 
-![Screenshot 2025-02-20 at 11 10 36 PM](https://github.com/user-attachments/assets/f2a2d4c6-bcaa-4256-90cf-b3d57987dcb6)
+![Screenshot 2025-02-22 at 2 26 34 PM](https://github.com/user-attachments/assets/a24a5e33-1f19-413f-b8fe-c5b7c62e1336)
 
-![Screenshot 2025-02-20 at 10 54 40 PM](https://github.com/user-attachments/assets/94675965-a2ba-4001-a240-876e59099271)
-
+![Screenshot 2025-02-22 at 2 28 40 PM](https://github.com/user-attachments/assets/82c71889-abf9-428d-b4a4-465815e6ef4f)
 
 [^1]: SteveP's [Layout Analysis Tool](https://colemakmods.github.io/mod-dh/analyze.html) Effort Score
