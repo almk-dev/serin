@@ -3,18 +3,18 @@ Keyboard layout based on Canary
 
 ##### column-staggered
 ```
-w l y p v q f o u , \
+w l y p k q f o u , \
 m r s t g b n a e i /
-z j c d k x h ' ; .
+z j c d v x h ' ; .
 ```
 ##### row-staggered
 ```
-w l y p v q f o u , [ ] \
+w l y p k q f o u , [ ] \
  m r s t g b n a e i /
-  z j c d k x h ' ; .
+  z j c d v x h ' ; .
 ```
 ## changes
-This layout attempts to be a more balanced version of [Canary](https://github.com/Apsu/Canary).
+This layout attempts to be a more balanced improvement on [Canary](https://github.com/Apsu/Canary).
 
 I wanted to accomplish the following:
 - Retain the core "feel" of Colemak-DH, including the `T`/`N` homing keys
